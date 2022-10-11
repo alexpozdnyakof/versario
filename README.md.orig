@@ -1,0 +1,7 @@
+# Hello Git!
+<<<<<<< HEAD
+Another text for merge conflict
+and one more line
+=======
+Merge conflicted string
+>>>>>>> branchy
