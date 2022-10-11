@@ -1,13 +1,14 @@
 type AppProps = {
   title: string,
-  text: string
+  text: string,
+  buttonLabel: string
 }
-export default function App({title, text}: ){
+export default function App({title, text, buttonLabel}: AppProps){
  return (
   `<div>
     <h1>${title}</h1>
     <p>${text}</h1>
-    <button>Accept</button>
+    <button>${buttonLabel}</button>
   </div>`
  ) 
 }
