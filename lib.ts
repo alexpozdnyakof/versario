@@ -16,4 +16,6 @@ function concat(x: string, y: string){
 
 function identity<T>(x: T): T { return x }
 
+function inverse(x: number) { return x * -1 }
+
 export { sum } 
