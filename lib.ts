@@ -14,4 +14,6 @@ function concat(x: string, y: string){
   return x.concat(y)
 }
 
+function identity<T>(x: T): T { return x }
+
 export { sum } 
