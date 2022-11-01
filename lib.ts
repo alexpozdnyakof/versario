@@ -18,4 +18,9 @@ function identity<T>(x: T): T { return x }
 
 function inverse(x: number) { return x * -1 }
 
+function reverse(s: string) { return s.reverse() }
+
+function extractString(s: string) { return s }
+
 export { sum } 
+
