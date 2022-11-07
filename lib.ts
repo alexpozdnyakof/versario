@@ -22,5 +22,5 @@ function reverse(s: string) { return s.reverse() }
 
 function extractString(s: string) { return s }
 
-export { sum } 
+export { sum, inverse } 
 
